@@ -22,6 +22,7 @@ function checkPassword() {
   for (i = 0; i < wordsList.length; i++) {
     if (password == wordsList[i]){
       document.getElementById("demo").innerHTML = "Your password could be better..."
+     break; 
     }
 
   }
