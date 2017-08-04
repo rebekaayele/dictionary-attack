@@ -1,4 +1,4 @@
-lines (14 sloc)  569 Bytes
+//lines (14 sloc)  569 Bytes
 var wordsList = [];
 
 
