@@ -22,7 +22,7 @@ function checkPassword() {
   for (var i = 0; i < wordsList.length; i++) {
     if (password == wordsList[i]){
       document.getElementById("results").innerHTML = "Your password could be better...";
-     break; 
+      break; 
     }
 
   }
