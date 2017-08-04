@@ -19,7 +19,7 @@ window.onload = init;
 
 function checkPassword() {
   var password = document.getElementById("pw").value;
-  for (i = 0; i < wordsList.length; i++) {
+  for (var i = 0; i < wordsList.length; i++) {
     if (password == wordsList[i]){
       document.getElementById("results").innerHTML = "Your password could be better...";
      break; 
