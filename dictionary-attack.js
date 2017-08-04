@@ -26,3 +26,4 @@ function checkPassword() {
 
   }
 }
+
